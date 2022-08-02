@@ -1,0 +1,155 @@
+/* General styling */
+
+*    {font-family: verdana, arial, sans-serif;}
+
+html {min-height: 100vh;
+      box-sizing: border-box;
+      border-collapse: collapse;
+}
+
+body {margin: 0%;
+      padding: 0%;
+      overflow: auto;
+      background-color: #FFFFF0;
+}
+
+header {width: 100%;
+        height: 200px;
+        position: sticky;
+        top: 0%;
+        left:0%;
+        background-color: #CC66FF;
+        overflow: auto;
+        z-index: 100;
+}
+
+#logo {width: auto;
+      height: 180px;
+      padding: 10px;
+      position: absolute;
+      top: 0%;
+      left: 0%;
+}
+
+#menu {display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 50vw;
+      position: absolute;
+      bottom: 0vh;
+      left: 25vw;
+      align-items: stretch;
+      justify-content: center;
+}
+
+.nav {flex-basis: 50px;
+      flex-grow: 0.5;
+      padding: 10px 25px;
+      font-size: 2vh;
+      font-weight: bold;
+      text-decoration: none;
+      text-align: center;
+      color: #FFFFF0;
+}
+
+.nav:hover {background-color: #FFFFF0;
+            color: #000000;
+}
+
+h1 {display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    font-size: 5vh;
+    color: #FFFFF0;
+    position: absolute;
+    top: 40px;
+    right: 25px;
+}
+
+h2 {display: block;
+    margin: 0%;
+    padding: 5px 15px;
+    font-size: 3vh;
+    color: #FFFFF0;
+}
+
+h3 {display: block;
+    margin: 0%;
+    padding: 5px 15px;
+    font-size: 2vh;
+    color: #FFFFF0;
+}
+
+p {margin: 0%;
+  padding: 5px 15px;
+  font-size: 16px;
+}
+
+#wrapper {margin: 0%;
+          padding: 2.5% 2.5%;
+
+}
+
+table {display: block;
+      width: 1360px;
+      margin: auto;
+      border-collapse: collapse;
+}
+
+#grid {width: 100%;
+      font-size: 36px;
+}
+
+td  {min-width: 340px;
+    margin: auto;
+      text-align: center;
+}
+
+.wall {max-width: 320px;
+      height: auto;
+      vertical-align: middle;
+      margin: 15px 5px;
+}
+
+.wall:hover {box-shadow: 5px 10px 8px RGB(0,0,0,0.7);}
+
+#c1 {background-color: #CCFFFF;
+}
+#c2 {background-color: #CCCCFF;
+}
+#c3 {background-color: #CC99FF;
+}
+#c4 {background-color: #CC66FF;
+}
+#c5 {background-color: #CCFFCC;
+}
+#c6 {background-color: #CCCCCC;
+}
+#c7 {background-color: #CC99CC;
+}
+#c8 {background-color: #CC66CC;
+}
+#c9 {background-color: #CCFF99;
+}
+#c10 {background-color: #CCCC99;
+}
+#c11 {background-color: #CC9999;
+}
+#c12 {background-color: #CC6699;
+}
+#c13 {background-color: #CCFF66;
+}
+#c14 {background-color: #CCCC66;
+}
+#c15 {background-color: #CC9966;
+}
+#c16 {background-color: #CC6666;
+}
+
+footer {width: 100%;
+        height: 100px;
+        background-color: #CCFF66;
+}
+
+.footer {color: #FFFFF0;
+}
